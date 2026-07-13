@@ -67,11 +67,20 @@ const Footer = () => {
           y: [0, -80, 40, 0],
         }}
         transition={{
-          duration: 5,
+          duration: 15,
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute left-10 top-10 h-60 w-60 rounded-full bg-cyan-400/20 blur-3xl"
+        className="
+        absolute
+        left-10
+        top-10
+        h-60
+        w-60
+        rounded-full
+        bg-cyan-400/20
+        blur-3xl
+        "
       />
 
       <motion.div
@@ -80,11 +89,20 @@ const Footer = () => {
           y: [0, 80, -40, 0],
         }}
         transition={{
-          duration: 6,
+          duration: 18,
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute right-10 bottom-10 h-72 w-72 rounded-full bg-blue-500/20 blur-3xl"
+        className="
+        absolute
+        right-10
+        bottom-10
+        h-72
+        w-72
+        rounded-full
+        bg-blue-500/20
+        blur-3xl
+        "
       />
 
       <motion.div
@@ -92,14 +110,23 @@ const Footer = () => {
           y: [0, -8, 0],
         }}
         transition={{
-          duration: 2,
+          duration: 5,
           repeat: Infinity,
           ease: "easeInOut",
         }}
         className="
-        relative z-10 mx-auto grid max-w-6xl gap-10
-        rounded-3xl border border-white/20
-        bg-white/10 p-8 backdrop-blur-xl
+        relative
+        z-10
+        mx-auto
+        grid
+        max-w-6xl
+        gap-10
+        rounded-3xl
+        border
+        border-white/20
+        bg-white/10
+        p-8
+        backdrop-blur-xl
         md:grid-cols-3
         "
       >
@@ -109,10 +136,18 @@ const Footer = () => {
               y: [0, -10, 0],
             }}
             transition={{
-              duration: 1.5,
+              duration: 4,
               repeat: Infinity,
             }}
-            className="mb-4 flex items-center gap-3 text-3xl font-bold text-cyan-400"
+            className="
+            mb-4
+            flex
+            items-center
+            gap-3
+            text-3xl
+            font-bold
+            text-cyan-400
+            "
           >
             <FaCode size={35} />
             Neda Barakzai
@@ -136,18 +171,23 @@ const Footer = () => {
                   y: [0, -8, 0],
                 }}
                 transition={{
-                  duration: 1.5,
+                  duration: 4,
                   repeat: Infinity,
-                  delay: index * 0.1,
+                  delay: index * 0.2,
                 }}
                 whileHover={{
                   scale: 1.08,
                   x: 15,
                 }}
                 className="
-                flex items-center gap-3
-                rounded-xl border border-white/10
-                bg-black/30 p-3
+                flex
+                items-center
+                gap-3
+                rounded-xl
+                border
+                border-white/10
+                bg-black/30
+                p-3
                 hover:border-cyan-400
                 "
               >
@@ -156,7 +196,7 @@ const Footer = () => {
                     rotate: [0, 360],
                   }}
                   transition={{
-                    duration: 2,
+                    duration: 8,
                     repeat: Infinity,
                   }}
                   className="text-cyan-400"
@@ -184,16 +224,18 @@ const Footer = () => {
                   y: [0, -15, 0],
                 }}
                 transition={{
-                  duration: 1.2,
+                  duration: 4,
                   repeat: Infinity,
-                  delay: index * 0.2,
+                  delay: index * 0.3,
                 }}
                 whileHover={{
                   scale: 1.3,
                   rotate: 360,
                 }}
                 className="
-                rounded-full bg-white/10 p-4
+                rounded-full
+                bg-white/10
+                p-4
                 hover:text-cyan-400
                 "
               >
@@ -211,13 +253,17 @@ const Footer = () => {
           y: [0, -10, 0],
         }}
         transition={{
-          duration: 2,
+          duration: 5,
           repeat: Infinity,
         }}
         className="
-        relative z-10 mt-10
-        flex justify-center
-        text-center text-gray-400
+        relative
+        z-10
+        mt-10
+        flex
+        justify-center
+        text-center
+        text-gray-400
         "
       >
         © 2026 Neda Barakzai | Full Stack Developer

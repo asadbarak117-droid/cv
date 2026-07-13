@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import { House, User, Mail, Menu, X } from "lucide-react";
+import { House, User, Mail, Menu, X, Folder } from "lucide-react";
 import { motion } from "motion/react";
 import { useState, useEffect } from "react";
 
 const links = [
   { name: "Home", path: "/", icon: <House size={20} /> },
   { name: "About Me", path: "/about", icon: <User size={20} /> },
+  { name: "Projects", path: "/project", icon: <Folder size={20} /> },
   { name: "Contact Me", path: "/contact", icon: <Mail size={20} /> },
 ];
 
@@ -101,9 +102,12 @@ function Headerh() {
               absolute left-1/2 top-full
               w-screen -translate-x-1/2
               bg-black/90 p-5
-              md:static md:w-auto
+
+              md:static
+              md:w-auto
               md:translate-x-0
-              md:bg-transparent md:p-0
+              md:bg-transparent
+              md:p-0
               `}
             >
               <div className="flex flex-col items-center gap-4 md:flex-row">
